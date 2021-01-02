@@ -63,3 +63,6 @@ output_path_train = os.path.join('outputs', 'train')
 if not os.path.exists(output_path_train):
     os.makedirs(output_path_train)
 ```
+
+## Author
+Hwanmoo Yong
