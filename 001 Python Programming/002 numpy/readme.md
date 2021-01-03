@@ -17,13 +17,16 @@ To do this, several libraries are required:
 2. Create empty 3D numpy arrays to save loaded 2D MNIST data.
    1. The empty numpy array could be filled with Nones or zeroes. 
    2. The shape of the initialized numpy array will be (number of files, width, height).
-3. Using for loops, replace the empty elements in the numpy array with the loaded 2D MNIST data.
+   3. Create additional 1D numpy arrays to save the label of the loaded 2D MNIST data.
+3. Using for loops, replace the empty elements in the numpy arrays with the loaded 2D MNIST data and its label.
    1. Using append or any other method to expand the size of the list or array may require additional computation time. 
    2. Therefore, we initialize the array with zeroes and replace the elements afterwards.
 4. Concat the train and test arrays into one array, so that we can split into three different arrays. (train, valid, test)
 5. Using the random library, shuffle the numpy array.
+   1. Note that the numpy arrays for both data and label should be shuffled in the same order.
 6. Split the numpy array into train, validation, and test arrays. Each array has a raio of 7:2:1 resepectively.
 7. Save the splitted arrays into .npz files.
+   1. The saved data should be 'train_x', 'train_y', 'valid_x', 'valid_y', 'test_x', and 'test_y'.
 
 ## Important codes
 
