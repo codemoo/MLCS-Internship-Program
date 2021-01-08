@@ -114,3 +114,6 @@ cap.release()
 img = cv2.imread('person.jpg') 
 cropped_img = img[y: y + h, x: x + w]
 ```
+
+## Author
+Hwanmoo Yong
