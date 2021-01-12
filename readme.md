@@ -14,7 +14,7 @@ Lab website: [MLCS][mlcs_link]
 ## Table of Contents
 
 1. Basic Python Programming
-2. Deep Learning (CNN)
+2. Neural Networks
 3. Control Theory
 4. Reinforcement Learning
 
