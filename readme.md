@@ -11,10 +11,12 @@ Lab website: [MLCS][mlcs_link]
 
 * * *
 
-## Simulation example files
+## Table of Contents
 
-1. main_example.m : main file for the simulation and plotting example
-2. system_fun.m : function file containing the information of the system dynamics. for the 'ode45' function
+1. Basic Python Programming
+2. Deep Learning (CNN)
+3. Control Theory
+4. Reinforcement Learning
 
 * * *
 
